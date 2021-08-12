@@ -1,0 +1,19 @@
+{
+  "name": "js-testing-introduction-async-code",
+  "version": "1.0.0",
+  "description": "Introduction to JS testing: ASYNC code",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack app.js --mode development --watch",
+    "test": "jest"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
